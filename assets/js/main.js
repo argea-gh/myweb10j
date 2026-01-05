@@ -268,11 +268,12 @@ function updateCartDisplay(cart) {
   <img src="${item.image}" alt="${item.name}" />
   <div class="cart-info">
     <h4>${item.name}</h4>
+
+    <!-- Opsional: tetap tampilkan harga satuan kecil -->
+    <div class="price-unit">(${formatRupiah(item.price)} × ${item.quantity})</div>
     
     <!-- ✅ Tambahkan baris ini untuk harga total per item -->
     <div class="price-item-total">${totalFormatted}</div>
-    <!-- Opsional: tetap tampilkan harga satuan kecil -->
-    <div class="price-unit">(${formatRupiah(item.price)} × ${item.quantity})</div>
      
     <div class="qty-control">
       <button class="qty-btn qty-minus">−</button>
