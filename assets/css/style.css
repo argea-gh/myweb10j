@@ -1077,13 +1077,13 @@ body {
 
 .price-item-total {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--green-primary);
   margin: 4px 0 6px;
 }
 
 .price-unit {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #6b7280;
   margin-bottom: 8px;
 }
