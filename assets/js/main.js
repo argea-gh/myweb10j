@@ -279,9 +279,13 @@ function updateCartDisplay(cart) {
       <button class="qty-btn qty-minus">−</button>
       <span class="qty-value">${item.quantity}</span>
       <button class="qty-btn qty-plus">+</button>
+      </div>
     </div>
-  </div>
-  <button class="cart-remove" data-id="${item.id}">×</button>
+    
+  <!-- ✅ Ikon hapus per item -->
+  <button class="cart-remove" data-id="${item.id}" aria-label="Hapus ${item.name}">
+  <i class="fas fa-trash"></i>
+</button>
 </div>
       `;
     }).join('');
