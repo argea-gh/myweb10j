@@ -1084,6 +1084,7 @@ body {
 
 .price-unit {
   font-size: 0.9rem;
+  font-weight: 500;
   color: #494c49;
   margin-bottom: 4px;
 }
@@ -1282,10 +1283,11 @@ body {
 }
 
 .qty-value {
+  font-size: 0.95rem;
+  font-weight: 500;
   min-width: 24px;
   text-align: center;
-  font-weight: 600;
-}
+  }
 
 .qty-plus {
   background: #a3ee88;
